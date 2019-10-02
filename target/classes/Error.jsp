@@ -11,5 +11,8 @@
 		<h1>Error</h1>
 		<h2><%=exception.getMessage() %><br/> </h2>
 	</center>	
+	<footer>
+	 		<p>by J.Bühler, October 2019</p>
+	</footer> 
 </body>
 </html>
