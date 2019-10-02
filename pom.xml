@@ -23,10 +23,18 @@
 			<version>2.3.1</version>
 			<scope>provided</scope>
 		</dependency>
+		
 		<dependency>
-			<groupId>jstl</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
+			  <groupId>jstl</groupId>
+			  <artifactId>jstl</artifactId>
+			  <version>1.2</version>
+			  <scope>compile</scope>
+		</dependency>
+		<dependency>
+			  <groupId>taglibs</groupId>
+			  <artifactId>standard</artifactId>
+			  <version>1.1.2</version>
+			  <scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
