@@ -25,7 +25,7 @@ public class EntryDAO {
 		this.jdbcPassword = jdbcPassword;
 	}
 	
-	
+	//find selected entry in db
 	public Entry getEntry(int id) throws SQLException {
 		Entry entry = null;
 		String sql = "SELECT * FROM entry WHERE entry_id = ?";

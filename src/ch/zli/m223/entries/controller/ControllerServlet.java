@@ -71,10 +71,7 @@ public class ControllerServlet extends HttpServlet {
 		String text = request.getParameter("text");
 
 		Entry Entry = new Entry(id, title, text);
-		entryDAO.updateEntry(Entry); 
-		//entryDAO.updateEntry(entryDAO);
-		//morgen testen
-		
+		entryDAO.updateEntry(Entry); 		
 		response.sendRedirect("list");
 	}
 	

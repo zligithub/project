@@ -40,6 +40,15 @@ CREATE TABLE `role` (
   PRIMARY KEY (`role_id`)
 );
 
+INSERT INTO `user` (role_id, name, password)
+VALUES ('0', 'admin', '1234');
+
+INSERT INTO `role` (title, read, write, edit, remove)
+VALUES ('admin', '1', '1', '1', '1');
+
+INSERT INTO `entry` (user_id, priority_id, title, text)
+VALUES ('0', '0', 'firsttext', 'Das ist eine kurze Beispielnotiz.');
+
 
 
 

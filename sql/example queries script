@@ -1,0 +1,3 @@
+SELECT entry_id, title, text
+FROM entry
+WHERE user_id == '0';
